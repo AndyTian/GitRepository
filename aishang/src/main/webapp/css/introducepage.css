@@ -1,0 +1,463 @@
+/*teacherpage begin*/
+img{
+    border: 0px;
+}
+.people-introduction,.contact-us,.news-left-container{
+    float:left;
+    margin-left:1%;
+    margin-right:0.25%;
+    position:relative;
+    min-height: 1px;
+    /*border: 1px solid rgba(0, 0, 0, 0.1);*/
+
+}
+.news-head,.news-content{
+    width:100%;
+}
+.news-content{
+    margin-top: 1em;
+}
+.news-head{
+    border-bottom: 4px dotted rgba(0, 0, 0, 0.1);
+}
+.new-name,.new-date{
+    width:90%;
+    margin: 0% 5%;
+    display:block;
+}
+.new-date{
+    /*height:12px;*/
+    /*line-height: 12px;*/
+    color:#9d9d9;
+    font-size:15px;
+    font-family: "Microsoft Yahei", Menlo, Monaco, Consolas, "Courier New", monospace, sans-serif;
+
+}
+.new-name{
+    /*height:60px;*/
+    line-height:50px;
+    font-size: 2em;
+    font-family:'Microsoft YaheiMicrosoft Yahei', Menlo, Monaco, Consolas, "Courier New", monospace, sans-serif;
+    font-weight:bolder;
+
+}
+.contact-us a{
+    text-decoration: none;
+    display:inline-block;
+    width:100%;
+    padding-left:15%;
+
+}
+.contact-us ul li a img{
+    float:left;
+    width:20%;
+    height:100%;
+    display: inline-block;
+}
+
+.contact-us ul li a span{
+    float:left;
+    display:inline-block;
+
+    height:100%;
+}
+.contact-us ul li{
+    font-size: 20px;
+    line-height: 50px;
+    height:50px;
+    font-family: "Microsoft Yahei", Menlo, Monaco, Consolas, "Courier New", monospace, sans-serif;
+    list-style: none;
+}
+
+@media (min-width: 992px) {
+    .each-people{
+        height:25em;
+    }
+    .people-introduction,.news-left-container{
+        width:70%;
+
+
+    }
+
+    .contact-us{
+        width:27%;
+
+
+    }
+    .people-photo{
+        width:35%;
+        padding:2% 2%;
+        height:24em;
+    }
+    .people-content{
+        width:65%;
+        padding:2% 2%;
+        height:24em;
+        overflow:hidden;
+    }
+}
+
+@media (max-width:991px) {
+    .each-people{
+        height: 25em;
+    }
+    .people-introduction,.news-left-container{
+        width:100%;
+    }
+    .contact-us{
+        width:100%;
+    }
+    .people-photo{
+        width:35%;
+        padding:2% 2%;
+        height:24em;
+    }
+    .people-content{
+        width:65%;
+        padding:2% 2%;
+        height:24em;
+        overflow:hidden;
+    }
+    .contact-us a{
+        text-decoration: none;
+        display:inline-block;
+        width:100%;
+        padding-left:30%;
+
+    }
+    .contact-us ul li a img{
+        float:left;
+        width:10%;
+        height:100%;
+        display: inline-block;
+    }
+    .contact-us-top ul li a span{
+        width:50%;
+    }
+    .course-introduce ul li a span{
+        width:100%;
+        text-align: center;
+    }
+
+
+    .contact-us ul li a span{
+        float:left;
+        display:inline-block;
+
+        height:100%;
+    }
+}
+@media (max-width: 788px) {
+    .contact-us ul li a img{
+        float:left;
+        width:52px;
+        height:100%;
+        display: inline-block;
+    }
+    .new-name{
+        font-size: 1.5em;
+        line-height:25px;
+    }
+}
+@media (max-width: 768px)
+{
+
+    .teacher{
+        width:100%;
+    }
+    .each-people,.contact-us.people-introduction,.news-left-container{
+        width:100%;
+
+    }
+    /*.each-people{*/
+    /*height: 50em;*/
+    /*}*/
+    .people-photo{
+        width:100%;
+        height:24em;
+    }
+    .people-content{
+        width:100%;
+        height:24em;
+    }
+}
+.introduce-header{
+    width:100%;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+    backround-color:white;
+    margin-top: 1%;
+    opacity: 0.7;
+}
+.introduce-header h3{
+    font-size:25px;
+    color:rgb(5, 166, 179);
+    font-weight:bold;
+    font-family: "Microsoft Yahei",Menlo, Monaco, Consolas, "Courier New", monospace;
+    line-height: 100%;
+}
+.each-people{
+    margin-bottom: 1%;
+}
+.each-people{
+      border-bottom: #ccc 3px dotted;
+
+}
+.each-people img{
+    width:100%;
+    height:100%;
+}
+.people-photo,.people-content{
+    float:left;
+}
+.people-name h6{
+    font-size: 17px;
+    font-weight:bold;
+    color:black;
+    font-family: "Microsoft Yahei", Menlo, Monaco, Consolas, "Courier New", monospace,sans-serif;
+    line-height: 100%;
+
+}
+.people-name{
+    height:10%;
+}
+
+
+.people-name h6:hover{
+	color:rgb(5, 166, 179);
+}
+.p-content-bottom{
+    width:100%;
+    line-height:2.0em;
+    text-align: center;
+    font-family: 'Microsoft Yahei', Menlo, Monaco, Consolas, "Courier New", monospace, sans-serif;
+    overflow: hidden;
+    height:16em;
+    position:relative;
+    word-spacing:1.2px;
+    margin-top:5%;
+
+}
+.p-content-bottom1{
+    width:100%;
+    line-height:2.0em;
+    text-align: center;
+    font-family:'Microsoft Yahei', Menlo, Monaco, Consolas, "Courier New", monospace, sans-serif;
+    overflow: hidden;
+    height:18em;
+    position:relative;
+    text-indent:2em;
+    word-spacing:1.2px;
+
+}
+
+/*.p-content-bottom::after{
+    content:"more";
+    color:rgb(5, 166, 179);
+    font-weight:bold;
+    position:absolute;
+    bottom:0;
+    right:0;
+    padding:0 20px 1px 45px;
+    background:url(../images/ellipsis.png) repeat-y;
+
+}*/
+.p-content-bottom1::after{
+    content:"...";
+    color:rgb(5, 166, 179);
+    font-weight:bold;
+    position:absolute;
+    bottom:0;
+    right:0;
+    padding:0 20px 1px 45px;
+    background:url(../images/ellipsis.png) repeat-y;
+
+}
+.contact-us-top ul li a span{
+    width:50%;
+}
+.course-introduce ul li a span{
+    width:70%;
+ text-align:center;
+}
+.contact-us-top{
+    border-bottom: 1px  solid rgba(0, 0, 0, 0.1);
+
+}
+.course-introduce{
+
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+
+
+}
+/*teacherpage end*/
+/*newspage begin*/
+.news-content{
+    width:100%;
+    margin-top:3em;
+}
+.news-label{
+    width:100%;
+    height:35px;
+    background-color:rgba(0, 0, 0, 0.1);
+    opacity: 0.6;
+}
+.news-label div{
+
+    float: left;
+}
+.news-label span{
+    float: left;
+    display:inline-block;
+    background-color: white;
+    height:35px;
+    width:16%;
+    line-height: 35px;
+    font-size: 1em;
+    font-family: "Microsoft Yahei", Menlo, Monaco, Consolas, "Courier New", monospace, sans-serif;
+    color:darkred;
+    opacity:0.7;
+    text-indent: 1em;
+    font-weight: bold;
+}
+.news-label div{
+    width:80%;
+    height:13px;
+    border-top:5px solid #c0c0c0;
+    border-radius: 1px;
+    border-bottom:5px solid #c0c0c0;
+    margin-top:13px;
+    margin-bottom:13px;
+    opacity: 0.5;
+
+}
+.c-1 img{
+    width:70%;
+    margin-left: 15%;
+    height:auto;
+    margin-top:2%;
+    margin-bottom:2%;
+    clear: both;
+    position: relative;
+    display:block;
+
+}
+.news-world{
+    font-size:1em;
+    font-weight: 500;
+    font-family: "Microsoft Yahei", Menlo, Monaco, Consolas, "Courier New", monospace;
+    color:black;
+    line-height: 1.8em;
+    text-indent:2em;
+    display:block;
+}
+.model-box{
+    width:30%;
+    height:auto;
+    box-shadow:1px 2px 5px 0px #cccccc;
+    padding:2%;
+    margin:2% 5%;
+    display:block;
+    float: left;
+
+}
+.model-box  img{
+    width:100%;
+    height:340px;
+
+}
+
+.modelbeader{
+    width:100%;
+    display: inline-block;
+    height:2em;
+    background-color: #cccccc;
+    opacity: 0.6;
+    font-size: 1.1em;
+    font-weight: bolder;
+    color:#5e5e5e;
+    font-family: "Microsoft Yahei", Menlo, Monaco, Consolas, "Courier New", monospace;
+    line-height: 2em;
+    text-indent:0.5em;
+}
+.model-introduce{
+    width:50%;
+    margin-top:2%;
+    display:block;
+    float: left;
+    margin-bottom:2%;
+
+}
+.model-main{
+    height:500px;
+    overflow: hidden;
+}
+.world{
+    font-family: "Microsoft Yahei", Menlo, Monaco, Consolas, "Courier New", monospace;
+    font-size: 1em;
+    font-weight: bold;
+}
+.img-style{
+    width:70%;
+    height: auto;
+    display: block;
+    margin: 2% 15%;
+}
+/*newpage end*/
+/*modelpage-start*/
+.mol-con{
+	width:100%;
+	height:400px;
+    overflow: hidden;
+	padding-top:3%;
+}
+/*modelpage-end*/
+/*modelpageintroduce start*/
+ 
+          #mo-span{
+          display:block;
+          margin-bottom:8px;
+          width:17%;
+          line-height:20px;
+          color: inherit;  
+          font-family: "Microsoft Yahei";
+          font-weight: bold;
+          font-size: 17px;
+          
+          }
+          .con-bottom{
+          width:100%;
+          height:160px;
+          font-size:16px;
+          line-height:20px;
+          font-family:'Microsoft Yahei';
+          overflow: hidden;
+          text-aligh:left;
+          text-indent:2em;
+          margin-top:5px;
+          }
+          .btu-t{
+         position:absolute; 
+         right:0px;bottom:5px;width:85px;
+          height:25px;
+          border:1px solid #dcdcdc;
+          border-radius: 5px;
+          opacity: 0.8;
+          background-color:white;
+          }
+          .btu-t a{
+          text-align:center;
+          display:block;
+          color:#e3461d;
+          font-size:12px;
+          line-height:25px;
+          height:25px;
+          }
+          .c-1{
+          text-align: left;
+          text-indent: 2em;
+          margin-top: 20px;
+          }
+             
+
+/*modelpageintroduce end*/

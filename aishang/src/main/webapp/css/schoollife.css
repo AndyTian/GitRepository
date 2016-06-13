@@ -1,0 +1,120 @@
+.schoollife-left{
+    width:50%;
+    height: 317px;
+    overflow: hidden;
+    float: left;
+    border-top: 2px solid #829bb3;
+    border-bottom: 2px solid #829bb3;
+
+}
+.schoollife-left a{
+    font-family: "Microsoft Yahei";
+    font-size: 15px;
+    text-decoration: none;
+    color: #A5A5A5;
+    text-indent:2.0em;
+    display: block;
+    width:100%;
+    font-weight:bold;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+    overflow:hidden;
+    
+
+}
+.schoollife-right a{
+    font-family: "Microsoft Yahei";
+    font-size: 15px;
+    text-decoration: none;
+    color: #A5A5A5;
+    display: block;
+    width:100%;
+    
+    font-weight:bold;
+    padding: 0px 2px 0px 2px;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+    overflow:hidden;
+}
+.sc-img{
+    width:325px;
+    border:0px;
+    height:210px;
+    margin-bottom:5%;
+}
+.schoollife-left a:hover{
+    font-family: "Microsoft Yahei";
+    font-size: 16px;
+    text-decoration: none;
+    color: black;
+    font-weight:bold;
+
+    display: block;
+}
+.schoollife-right a:hover{
+    font-family: "Microsoft Yahei";
+    font-size: 16px;
+    text-decoration: none;
+    color: black;
+    
+    font-weight:bold;
+    font-weight: bold;
+    display: block;
+}
+.schoollife-left ul{
+    list-style: none;
+}
+.schoollife-left ul li{
+    padding-top: 3px;
+    padding-left:5%;
+    padding-right: 8px;
+    margin-top: 4px;
+    font-size: 16px;
+    display:block;
+   
+    font-family: "Microsoft Yahei";
+}
+
+
+
+
+.schoollife-right a:hover{
+    font-family: "Microsoft Yahei";
+    font-size: 16px;
+    text-decoration: none;
+    color: black;
+    font-weight:bold;
+    display: block;
+}
+.schoollife-right ul{
+    list-style: none;
+}
+.schoollife-right ul li{
+    padding-top: 3px;
+    padding-left: 35px;
+    padding-right: 8px;
+    margin-top: 4px;
+ 
+    font-size: 16px;
+    display:block;
+    font-family: "Microsoft Yahei";
+}
+.schoollife-left img{
+    border:0px;
+}
+.schoollife-right{
+    width:40%;
+
+    /*background-color: pink;*/
+    height: 317px;
+    overflow: hidden;
+    float: left;
+    border-top: 2px solid #829bb3;
+    border-bottom: 2px solid #829bb3;
+ 
+ 
+
+}
+.ph{
+margin-top:8px;
+}

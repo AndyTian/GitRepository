@@ -1,0 +1,251 @@
+.class-left{
+    width:66%;
+    /*background-color: #cccccc;*/
+    margin-right:5%;
+    float:left;
+}
+.class-right{
+    width:25%;
+    background-color: #a6e1ec;
+    height:100px;
+    float:left;
+}
+.class-left ul{
+    list-style: none;
+}
+.class-left ul li {
+    display: block;
+    width:100%;
+    height:250px;
+}
+/*.class-left ul li a{
+    float:left;
+    display:block;
+    margin-right:5%;
+    width:40%;
+}*/
+.image-box{
+	 float:left;
+    display:block;
+    margin-right:5%;
+    width:40%;
+}
+/*��class-left ul li a:hover{*/
+    /*cursor: pointer;*/
+/*}*/
+.img-1{
+    width:100%;
+    height:179px;
+
+}
+.class-left h3{
+    font-family: "Microsoft Yahei";
+    font-size:16px;
+    float:left;
+    font-weight:bold;
+    color:black;
+    display:inline-block;
+    width:55%;
+
+}
+.class-left ul li  p{
+    float: left;
+    font-size: 12px;
+    color:#555555;
+    width:55%;
+    margin-top: 2%;
+    margin-bottom: 1%;
+    marign-bottom:5%;
+}
+.btu{
+    border:1px solid #dcdcdc;
+    color:#e3461d;
+    font-size:12px;
+    text-align: center;
+    width:85px;
+    height:25px;
+    float:left;
+    padding:2px;
+    margin-top:1%;
+
+}
+.btua{
+    color: #e3461d;
+    font-size: 12px;
+    text-align: center;
+    display: block;
+    height: 20px;
+    width: 100%;
+    }
+@media(max-width:990px){
+    .class-left{
+        width:100%;
+    }
+}
+.class-header{
+    width:100%;
+    /*height:100px;*/
+    /*background-color: blue;*/
+    margin-bottom: 3%;
+}
+.img-ul{
+    width:100%;
+    margin-bottom: 3%;
+    height:249px;
+}
+.class-header ul{
+    list-style: none;
+}
+.class-header ul li{
+    display:block;
+    font-family: "Microsoft Yahei";
+    font-size: 14px;
+}
+.classname{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Microsoft Yahei";
+}
+.img-ul ul{
+    list-style: none;
+    margin-left: 0.5%;
+}
+.img-ul ul li {
+    float:left;
+    width: 33%;
+    margin: 0% 0.1%;
+    height:auto;
+    display: block;
+}
+.empimg-ul ul li {
+    float:left;
+    width: 32.2%;
+    margin: 0% 0.5%;
+    height:auto;
+    display: block;
+}
+.empimg-ul{
+	width:100%;
+    margin-bottom: 3%;
+    height:249px;
+}
+.empimg-ul2 ul li {
+    float:left;
+    width: 32.2%;
+    margin: 0% 0.5%;
+    height:auto;
+    display: block;
+}
+.empimg-ul2{
+	width:100%;
+    margin-bottom: 3%;
+}
+.img-ul ul li img{
+    float:left;
+    width:100%;
+    height:248px;
+}
+.img-li{
+	border:1px solid #CCC;
+	box-shadow:1px 2px 5px 0px #cccccc;
+
+	}
+
+.empimg-ul ul li img{
+    float:left;
+    width:100%;
+    height:248px;
+    border: 1px solid #ccc;
+    padding: 0.8%;
+}
+.empimg-ul2 ul li img{
+    float:left;
+    width:100%;
+    height:200px;
+    border: 1px solid #ccc;
+    padding: 0.8%;
+}
+.class-content{
+    float:left;
+    width: 33%;
+    margin: 0% 0.1%;
+    height:auto;
+    display: block;
+
+    padding:0% 4%;
+
+}
+.class-content ul{
+    list-style:none;
+}
+.class-content ul li {
+     font-family: "Microsoft Yahei";
+     font-size: 14px;
+     line-height: 25px;
+     /*display:block;*/
+     height:auto;
+    width:100%;
+    /*overflow: hidden;*/
+
+ }
+ .class-content ul li a {
+     font-family: "Microsoft Yahei";
+     font-size: 14px;
+     line-height: 25px;
+     display:block;
+     height:auto;
+     width:100%;
+     color:black;
+     overflow: hidden;
+}
+.class-content h4{
+    font-family: "Microsoft Yahei";
+    font-size: 20px;
+    font-weight:bold;
+    margin-bottom:7px;
+}
+.class-ul{
+    height:290px;
+    width:100%;
+    /*background-color: pink ;*/
+    overflow: hidden;
+    margin-bottom: 4%;
+}
+."class-ul2{
+	width:100%;
+    /*background-color: pink ;*/
+    overflow: hidden;
+    margin-bottom: 4%;
+}
+ .map-content2{
+	width:100%;
+	border-bottom:3px solid #f5d29a;
+	margin-bottom:4%;
+}
+	
+	.map-sty{
+	width:100%;
+
+	}
+	.map-rig{
+	width:100%;
+	margin-bottom:20px;
+   }
+@media (min-width: 1012px)
+{
+ 
+   .map-sty{
+	width:70%;
+	float:left;
+}
+.map-rig{
+	width:30%;
+	float:left;
+}
+.map-content2{
+	width:100%;
+	border-bottom:3px solid #f5d29a;
+	margin-bottom:4%;
+}
+ 
+}
